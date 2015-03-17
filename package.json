@@ -1,0 +1,25 @@
+{
+  "name": "scacchi",
+  "version": "0.0.0",
+  "description": "Chess game multiplayer online via websocket",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanocudini/scacchi.git"
+  },
+  "keywords": [
+    "chess",
+    "websocket",
+    "javascript",
+    "game"
+  ],
+  "author": "Stefano Cudini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanocudini/scacchi/issues"
+  },
+  "homepage": "https://github.com/stefanocudini/scacchi"
+}

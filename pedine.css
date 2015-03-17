@@ -1,0 +1,128 @@
+
+.pedina {
+	height:50px;
+	width:50px;
+	text-align:center;
+	cursor: move;
+	margin:0px;
+	color:#fff;
+	line-height:50px;
+	position:absolute;
+	top:230px;
+	left:260px;
+	z-index:100;
+	background-image: url('pedine2.png');
+	font-weight: bold;	
+}
+.pedina.bianca {
+}
+.pedina.drag {
+  border: 2px dotted #0f0;
+	margin:-2px;
+}
+.pedina.mossa {
+  border: 2px dotted #f0f;
+	margin:-2px;	
+}
+
+/*posizione sfondo pedine*/
+#pb1,#pb8,
+.torre {
+  background-position: -30px -23px;
+	height: 56px;
+	width: 37px;
+}
+#pb2,#pb7,
+.cavallo {
+  background-position: -127px -15px;
+	height: 70px;
+	width: 40px;
+}
+#pb3,#pb6,
+.alfiere {
+  background-position: -223px -18px;
+	height: 61px;
+	width: 37px;
+}
+#pb4,
+.regina {
+  background-position: -412px -5px;
+	height: 85px;
+	width: 39px;
+}
+#pb5,
+.re {
+  background-position: -506px -5px;
+	height: 91px;
+	width: 41px;
+}
+#pb9,#pb10,#pb11,#pb12,#pb13,#pb14,#pb15,#pb16,
+.pedone {
+  background-position: -321px -32px;
+	height: 37px;
+	width: 29px;
+}
+
+#pn1,#pn8,
+.torre {
+  background-position: -29px -118px;
+	height: 56px;
+	width: 37px;
+}
+#pn2,#pn7,
+.cavallo {
+  background-position: -127px -107px;
+	height: 70px;
+	width: 40px;
+}
+#pn3,#pn6,
+.alfiere {
+  background-position: -225px -111px;
+	height: 61px;
+	width: 37px;
+}
+#pn4,
+.regina {
+  background-position: -413px -103px;
+	height: 85px;
+	width: 39px;
+}
+#pn5,
+.re {
+  background-position: -509px -99px;
+	height: 91px;
+	width: 41px;
+}
+#pn9,#pn10,#pn11,#pn12,#pn13,#pn14,#pn15,#pn16,
+.pedone {
+  background-position: -321px -128px;
+	height: 37px;
+	width: 29px;
+}
+
+
+#pb4,
+.regina {
+  background-position: -396px -5px;
+	height: 85px;
+	width: 68px;
+}
+#pb5,
+.re {
+  background-position: -506px -5px;
+	height: 91px;
+	width: 41px;
+}
+#pn4,
+.regina {
+  background-position: -398px -103px;
+	height: 85px;
+	width: 68px;
+}
+#pn5,
+.re {
+  background-position: -509px -99px;
+	height: 91px;
+	width: 41px;
+}
+

@@ -1,0 +1,219 @@
+body {
+	text-align:center;
+	margin:10px;
+	background-color: #ccc;
+	font-family:Arial;
+}
+#pager {
+	margin: 10px auto;
+	width: 560px;
+	margin: 10px auto;
+}
+#copy {
+	position:fixed;
+	z-index:1000;
+	right:-6px;
+	top:-6px;
+	font-style:italic;
+	font-size:.85em;
+	padding:5px 8px;
+	background: #fff;
+	border:2px solid #c5cdd4;
+	border-radius:.7em;
+	opacity: 0.8;	
+}
+#container {
+	position:relative;
+	height:560px;
+	width:560px;
+	margin: 0 0 -561px -1px !important;
+	margin: 0 0 -561px 0px;	
+}
+#loader {
+	background: url('loader.gif') #fff no-repeat center center;
+	border:1px solid #a0f;
+	width:560px;
+	height:560px;
+	position:absolute;
+	left:-1px;
+	top:-1px;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	z-index:2000;
+	display:none;
+}
+#turno {
+	text-align:center;
+}
+#turno span {
+	text-decoration: blink;
+	color:#a0f;
+	font-weight:bold;
+}
+#status {
+	position:fixed;
+	z-index:3000;	
+	bottom:-0.5em;
+	left:25%;
+	height:1.65em;
+	width:50%;
+	border:1px solid #aaa;
+	color:#666;
+	background: #ddd;
+	text-align:center;
+	font-size:small;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;		
+}
+#online {
+	font-size:small;
+}
+.cur  {
+	width:1px;
+	height:1px;
+	position:absolute;
+	top:70%;
+	left:50%;
+	margin:-1px 0 0 -1px;
+}
+#debugbody .cur  {
+	background:red;
+}
+
+#scacchiera {
+	height:560px;
+	width:560px;
+	background: url('scacchiera2.jpg') no-repeat center center;
+
+	position:absolute;
+	z-index:80; 
+}
+#scacchiera td {
+	height:66px;
+	width:66px;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+#scacchiera td.chiara {
+	border: 2px solid #fee;
+}
+#scacchiera td.scura {
+	border: 2px solid #805997;
+}
+#scacchiera td.hover {
+	border: 2px solid #f00;
+}
+#history {
+	position:absolute;
+	right:-170px;
+	top:0;
+	overflow-y:scroll;
+	width:150px;
+	height:114px;
+	background:#ddd;
+	border: 2px solid #666;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+}
+#history a {
+	display:block;
+	text-decoration:none;
+	height:16px;
+	font-size:12px;
+	text-align:left;
+	margin:2px;
+	padding:2px;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;	
+}
+#history a.bianca {
+	border: 1px solid #C4419A;
+	background:#e8cdde;
+}
+#history a.nera {
+	border: 1px solid #3c586f;
+	background:#abbbc9;	
+}
+#history a:hover {
+	border-width: 2px;
+	padding:1px;
+}
+#tavolo {
+	position:relative;
+	top:140px;
+	left:50%;
+	margin-left:-450px;
+	height:280px;
+	width:900px;
+	z-index:70;
+}
+.tav {
+	position:absolute;
+	top:0;
+	width:150px;
+	height:280px;
+	-moz-border-radius: 0.4em;
+	-webkit-border-radius: 0.4em;
+	border-radius: 0.4em;
+}
+.tav.bianca {
+	left:0;
+	border: 2px solid #af6595;
+	background:#e8cdde;
+}
+.tav.nera {
+	right:0;
+	border: 2px solid #3c586f;
+	background:#abbbc9;	
+}
+.tav.hover {
+	border: 2px solid red;	
+}
+.tav em {
+	display:none;
+}
+.tav.hover em {
+	display:inline;
+}
+/* per debug */
+#debug_wrap {
+	padding:5px;
+	margin:5px;	
+	width:20%;
+	border:1px solid #aaa;
+	background: #ddd;
+	clear:both;
+	position:fixed;
+	top:5px;
+	left:5px;
+	z-index:3000;
+	filter: alpha(opacity=80);
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+#debug_wrap input {
+	margin: 0 3px 3px 0;
+	float:left;
+}
+#log {
+	position:relative;
+	height:100px;
+	clear:both;
+	border:1px solid #aaa;
+	text-align:left;
+	overflow-y:scroll;
+}
+
+
+

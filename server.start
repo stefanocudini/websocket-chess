@@ -1,0 +1,2 @@
+#!/bin/bash
+node ws-server-cli.js

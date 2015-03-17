@@ -1,0 +1,7 @@
+{
+    "hostws": "localhost",
+    "portws": 9000,
+    "hostphp": "127.0.0.1",
+    "portphp": 9090
+}
+

@@ -1,0 +1,17 @@
+
+aggiungere supporta sqlite invece di utilizzare tutti sti file sparsi!
+
+risolvere problema delle coordinate delle pedine in caso di finestre con diversa dimensione e/p risoluzione
+forse usare gli em
+
+Importante! aggiungere conversione della posizione delle pedine per ogni utente
+ognuno deve vedere la scacchiera dal lato delle sue pedine
+
+BUG STRANO:
+events:12
+        throw arguments[1];
+                       ^
+Error: ECONNRESET, Connection reset by peer
+    at Stream._readImpl (net:304:14)
+    at IOWatcher.callback (net:454:24)
+    at node.js:764:9

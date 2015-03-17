@@ -1,0 +1,67 @@
+#setmoticons {
+	float:left;
+	position:relative;
+	width:20px;
+	height:20px;
+	border:1px solid #a0f;
+	overflow:visible;
+	margin-right:5px;
+}
+#chatarea img,
+#setmoticons img { border:0; vertical-align: bottom;}
+#setmoticons a { margin:2px; }
+
+#emoticons a { width:20px; height:20px; display:block; float:left; }
+#emoticons {
+	display:none;
+	position:absolute;
+	top:1px;
+	right:1px;
+	border:1px solid #a0f;
+	width:220px;
+	background-color:#fff;
+}
+#emoticons em {
+	position:absolute;
+	right:-1px;
+	display:block;
+	height:12px;
+	line-height:10px;
+	width:10px;
+	bottom:-1px;
+	font-style:normal;
+	font-family: Courier;
+	border:1px solid #a0f;
+	color: #a0f;
+	cursor:pointer;
+}
+
+/*CHAT*/
+#chatcontainer {
+  font-family:Arial;
+	text-align:left;
+	width:550px;
+	border:1px solid #a0f;
+	margin-left:-1px !important;
+	margin-left:0px;
+	padding:5px !important;
+	overflow: hidden;
+}
+#chatform { margin: 0; float:left }
+#chatarea {
+  margin-top:27px !important;
+  margin-top:0px;	
+  border:1px solid #a0f;
+  background-color:#fff;
+  width: 544px;
+	height: 140px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	clear:both;
+  padding:2px;
+}
+#chatarea span { font-size:14px; }
+input { border: 1px solid #a0f; padding:2px; }
+input[name=mes] { width: 377px; margin-right:4px; }
+input[name=nom] { width: 80px;  margin-right:4px; }
+input[type=submit] { width: 40px; height:22px; padding:0px;}
