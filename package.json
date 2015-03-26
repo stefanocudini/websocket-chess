@@ -11,8 +11,7 @@
     "url": "git://github.com/stefanocudini/scacchi.git"
   },
   "keywords": [
-    "chess",
-    "websocket",
+    "websockets",
     "javascript",
     "game"
   ],
