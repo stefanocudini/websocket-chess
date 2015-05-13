@@ -10,7 +10,7 @@ $portws = $conf['portws'];
 $hostphp = $conf['hostphp'];
 $portphp = $conf['portphp'];
 
-$pedfile = ".%s.txt";
+$pedfile = "peds/.%s.txt";
 $turnfile = ".turno.txt";
 
 ?>
