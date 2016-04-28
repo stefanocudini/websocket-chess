@@ -217,3 +217,13 @@ body {
 
 
 
+#ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	filter: alpha(opacity=80);
+	-khtml-opacity: .8;
+	-moz-opacity: .8;
+	opacity: .8;		
+}
