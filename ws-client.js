@@ -18,9 +18,12 @@ console.log(json);
 }
 
 function ws_connect(calls) {
-
-	ws = new WebSocket('ws://'+ ws_server +':'+ ws_port +'/');
-
+    try {
+	    ws = new WebSocket('ws://'+ ws_server +':'+ ws_port +'/');
+    }
+    catch(e) {
+        console.warn ('websocket connection error')
+    }
 	ws.onopen = function(e) {
 		calls.onopen(e);		
 	};
