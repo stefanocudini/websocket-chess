@@ -19,10 +19,10 @@ console.log(json);
 
 function ws_connect(calls) {
     try {
-	    ws = new WebSocket('ws://'+ ws_server +':'+ ws_port +'/');
+	    ws = new WebSocket('wss://'+ ws_server +':'+ ws_port +'/');
     }
     catch(e) {
-        console.warn ('websocket connection error')
+        console.warn('websocket connection error')
     }
 	ws.onopen = function(e) {
 		calls.onopen(e);		

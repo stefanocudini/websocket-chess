@@ -204,7 +204,9 @@ body {
 }
 #debug_wrap input {
 	margin: 0 3px 3px 0;
+	padding: 4px;
 	float:left;
+	cursor: pointer;
 }
 #log {
 	position:relative;

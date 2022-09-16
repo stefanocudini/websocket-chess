@@ -5,7 +5,7 @@
 	session_start();
 	$SID = session_id();
 	//questo deve stare prima dell'inclusione di ws-client.js
-	$debug = isset($_GET['debug']);
+	$debug = true;//isset($_GET['debug']);
 
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
@@ -42,11 +42,11 @@ var debug = <?=$debug?'true':'false'?>,
 	<div id="loader"></div>
 	
 	<? for($b=1; $b<=16; $b++): ?>
-	<div id="pb<?=$b?>" class="pedina bianca"><?=$debug?$b:''?><div class="cur"></div></div>
+	<div id="pb<?=$b?>" class="pedina bianca" title="<?=$debug?$b:''?>"><div class="cur"></div></div>
 	<? endfor; ?>
 
 	<? for($n=1;$n<=16;$n++): ?>
-	<div id="pn<?=$n?>" class="pedina nera"><?=$debug?$n:''?><div class="cur"></div></div>
+	<div id="pn<?=$n?>" class="pedina nera" title="<?=$debug?$n:''?>"><div class="cur"></div></div>
 	<? endfor; ?>
 
 	<table id="scacchiera" cellspacing="0" cellpadding="0">
